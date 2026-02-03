@@ -27,12 +27,12 @@ public class MainActivity extends AppCompatActivity {
         EditText etDomComp = new EditText(this);
         EditText etNumTel = new EditText(this);
         Button butSubmit = new Button(this);
-        etNom.setHint("Nom");
-        etPrenom.setHint("Prenom");
-        etAge.setHint("Age");
-        etDomComp.setHint("Domaine de compétence");
-        etNumTel.setHint("Numéro de téléphone");
-        butSubmit.setHint("Submit");
+        etNom.setHint(R.string.nom);
+        etPrenom.setHint(R.string.prenom);
+        etAge.setHint(R.string.age);
+        etDomComp.setHint(R.string.domComp);
+        etNumTel.setHint(R.string.numTel);
+        butSubmit.setHint(R.string.submit);
 
 
         linearLayout.addView(etNom, params);
