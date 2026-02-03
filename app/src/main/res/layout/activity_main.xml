@@ -20,77 +20,82 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Prénom" />
+            android:text="@string/prenom" />
 
         <EditText
             android:id="@+id/editTextPrenom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Prénom"
+            android:hint="@string/prenom"
             android:inputType="text" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nom" />
+            android:text="@string/nom" />
 
         <EditText
             android:id="@+id/editTextNom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Nom"
+            android:hint="@string/nom"
             android:inputType="text" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Age" />
+            android:text="@string/age" />
 
         <EditText
             android:id="@+id/editTextAge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Age"
+            android:hint="@string/age"
             android:inputType="number" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Phone" />
+            android:text="@string/numTel" />
 
         <EditText
             android:id="@+id/editTextPhone2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Téléphone"
+            android:hint="@string/numTel"
             android:inputType="phone" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Domaine de compétence" />
+            android:text="@string/domComp" />
 
         <EditText
             android:id="@+id/editTextDom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
-            android:hint="Domaine de compétence"
+            android:hint="@string/domComp"
             android:inputType="text" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/submit" />
 
     </LinearLayout>
 
