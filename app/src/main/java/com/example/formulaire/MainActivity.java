@@ -28,25 +28,19 @@ public class MainActivity extends AppCompatActivity {
         EditText etNumTel = new EditText(this);
         Button butSubmit = new Button(this);
         etNom.setHint("Nom");
-        etNom.setLayoutParams(params);
         etPrenom.setHint("Prenom");
-        etPrenom.setLayoutParams(params);
         etAge.setHint("Age");
-        etAge.setLayoutParams(params);
         etDomComp.setHint("Domaine de compétence");
-        etDomComp.setLayoutParams(params);
         etNumTel.setHint("Numéro de téléphone");
-        etNumTel.setLayoutParams(params);
         butSubmit.setHint("Submit");
-        butSubmit.setLayoutParams(params);
 
 
-        linearLayout.addView(etNom);
-        linearLayout.addView(etPrenom);
-        linearLayout.addView(etAge);
-        linearLayout.addView(etDomComp);
-        linearLayout.addView(etNumTel);
-        linearLayout.addView(butSubmit);
+        linearLayout.addView(etNom, params);
+        linearLayout.addView(etPrenom, params);
+        linearLayout.addView(etAge, params);
+        linearLayout.addView(etDomComp, params);
+        linearLayout.addView(etNumTel, params);
+        linearLayout.addView(butSubmit, params);
 
         linearLayout.setOrientation(VERTICAL);
 
