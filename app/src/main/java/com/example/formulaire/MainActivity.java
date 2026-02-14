@@ -2,6 +2,7 @@
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -34,8 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 builder.setPositiveButton(R.string.continuer, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // Action si OUI
-                        Toast.makeText(MainActivity.this, "Vous avez cliqué sur Continuer", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                        intent.putExtra("firstName", etPrenom.getText().toString());
+                        intent.putExtra("lastName", etNom.getText().toString());
+                        intent.putExtra("age", etAge.getText().toString());
+                        intent.putExtra("domComp", etDomComp.getText().toString());
+                        intent.putExtra("numTel", etNumTel.getText().toString());
+                        startActivity(intent);
                     }
                 });
 

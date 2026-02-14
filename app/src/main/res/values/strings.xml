@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Formulaire</string>
+    <string name="app_name" translatable="false">Formulaire</string>
     <string name="nom">Nom</string>
     <string name="prenom">Prénom</string>
     <string name="age">Age</string>
@@ -10,4 +10,6 @@
     <string name="dismiss">Annuler</string>
     <string name="attention">Attention</string>
     <string name="voulez_vous_continuer">Voulez-vous continuer ?</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="Retour">Retour</string>
 </resources>
