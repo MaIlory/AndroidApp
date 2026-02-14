@@ -12,4 +12,6 @@
     <string name="voulez_vous_continuer">Voulez-vous continuer ?</string>
     <string name="ok" translatable="false">OK</string>
     <string name="Retour">Retour</string>
+    <string name="defaultNumber" translatable="false">06 00 00 00 00</string>
+    <string name="appeler">Appeler</string>
 </resources>

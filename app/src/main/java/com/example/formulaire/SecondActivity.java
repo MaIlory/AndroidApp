@@ -25,13 +25,15 @@ public class SecondActivity extends AppCompatActivity {
         String nom = null;
         String age = null;
         String domaine = null;
-        String telephone = null;
+        String telephone;
         if (extras != null) {
             prenom = extras.getString("firstName");
             nom = extras.getString("lastName");
             age = extras.getString("age");
             domaine = extras.getString("domComp");
             telephone = extras.getString("numTel");
+        } else {
+            telephone = null;
         }
 
         // Construction de la chaîne d'affichage
@@ -50,6 +52,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+                intent.putExtra("phoneNumber", telephone);
                 startActivity(intent);
             }
         });

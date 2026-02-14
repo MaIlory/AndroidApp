@@ -11,4 +11,5 @@
     <string name="attention">Warning</string>
     <string name="voulez_vous_continuer">Do you want to continue ?</string>
     <string name="Retour">Return</string>
+    <string name="appeler">Call</string>
 </resources>
