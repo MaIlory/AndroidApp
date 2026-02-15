@@ -27,9 +27,15 @@
         <activity
             android:name=".activities.MainActivity"
             android:exported="false" />
-        <activity android:name=".activities.SecondActivity" />
+        <activity android:name=".activities.SecondActivity"/>
         <activity android:name=".activities.ThirdActivity"/>
         <activity android:name=".activities.SearchActivity"/>
         <activity android:name=".activities.ResultActivity"/>
+        <activity 
+            android:name=".activities.AgendaActivity"
+            android:exported="false"/>
+        <activity 
+            android:name=".activities.AddEventActivity"
+            android:exported="false"/>
     </application>
 </manifest>

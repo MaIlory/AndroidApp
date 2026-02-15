@@ -16,6 +16,7 @@ public class MenuActivity extends AppCompatActivity {
 
         CardView cardProfile = findViewById(R.id.cardProfile);
         CardView cardTrains = findViewById(R.id.cardTrains);
+        CardView cardAgenda = findViewById(R.id.cardAgenda);
 
         // Aller vers le profil (MainActivity)
         cardProfile.setOnClickListener(v -> {
@@ -26,6 +27,12 @@ public class MenuActivity extends AppCompatActivity {
         // Aller vers la recherche de trains (SearchActivity)
         cardTrains.setOnClickListener(v -> {
             Intent intent = new Intent(MenuActivity.this, SearchActivity.class);
+            startActivity(intent);
+        });
+
+        // Aller vers l'agenda (AgendaActivity)
+        cardAgenda.setOnClickListener(v -> {
+            Intent intent = new Intent(MenuActivity.this, AgendaActivity.class);
             startActivity(intent);
         });
     }

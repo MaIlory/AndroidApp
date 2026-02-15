@@ -1,4 +1,4 @@
-    package com.example.formulaire.activities;
+package com.example.formulaire.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
