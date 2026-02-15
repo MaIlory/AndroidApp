@@ -1,4 +1,4 @@
-    package com.example.formulaire;
+    package com.example.formulaire.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -7,11 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.formulaire.R;
+
+    public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,4 +1,4 @@
-package com.example.formulaire;
+package com.example.formulaire.activities;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.Objects;
+import com.example.formulaire.R;
 
 public class ThirdActivity extends AppCompatActivity{
     Button buttonCall;
